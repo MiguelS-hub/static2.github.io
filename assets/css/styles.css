@@ -1,0 +1,62 @@
+#navbar {
+    background-color: azure;
+    height: 8vh;
+    border-bottom: rgb(187, 186, 186) 1px solid;
+}
+
+#links {
+    padding-top: 20px;
+}
+
+#fix-color {
+    color: grey;
+}
+
+#name-container {
+    padding-top: 20px;
+    background-color: aqua;
+}
+
+#name {
+    color: white;
+}
+
+#background {
+    height: 82vh;
+    background-image: url("../images/home-background.jpg");
+    background-repeat: no-repeat;
+}
+
+#content {
+    border: rgb(187, 186, 186) 1px solid;
+    background-color: white !important;
+}
+.position{
+    position: absolute;
+    width: auto;
+}
+
+#aboutme {
+    padding-top: 30px;
+    color: aqua;
+}
+
+#footer {
+    height: 10vh;
+    background-color: grey;
+}
+
+
+@media screen and (min-width: 780px) {
+    /* If screen is bigger than 480px */
+    #fix-padding {
+        padding-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+  }
